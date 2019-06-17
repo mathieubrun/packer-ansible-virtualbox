@@ -1,0 +1,6 @@
+- name: Wait for machine to boot
+  wait_for_connection:
+
+- name: Set the hostname
+  hostname:
+      name: "{{ host_fqdn }}"

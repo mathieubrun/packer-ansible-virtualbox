@@ -1,0 +1,2 @@
+ansible_user: root
+guest_user: "{{ lookup('env','USER') }}"
